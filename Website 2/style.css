@@ -1,0 +1,27 @@
+
+:root{
+    --color: blue;
+    --color1: rgb(250, 250, 250);
+    --color2: rgb(26, 206, 140);
+    --color3: rgb(245, 34, 189);
+
+}
+
+ul li{
+    list-style:none;
+    display: inline;
+    color: var(--color1);
+    padding-right: 15px;
+
+}
+nav{
+    background-color: var(--color2);
+}
+.box{
+    background-color:var(--color2);
+    border: 3px solidvar(--color2);;
+    
+}
+body{
+    background-color:var(--color3);;
+}
