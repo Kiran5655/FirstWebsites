@@ -1,0 +1,28 @@
+.container{
+    border: 3px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "side article article"
+                         "footer footer footer";
+}
+.items{
+    border: 2px solid blueviolet;
+    height: 60px;
+}
+.pos1{
+    grid-area: nav;
+    background-color: aqua;
+}
+.pos2{
+    background-color: rgb(96, 246, 22);
+}
+.pos3{
+    background-color: rgb(46, 43, 230);
+}
+.pos4{
+    background-color: rgb(255, 0, 25);
+}
+.pos5{
+   grid-area: footer;
+   background-color: rgb(239, 62, 239);
+}
